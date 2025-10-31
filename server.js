@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 5678;
 
 // Your n8n production webhook URL
 const N8N_WEBHOOK_URL = "https://irena-whiniest-choicely.ngrok-free.dev/webhook/kirtilal-chat";
