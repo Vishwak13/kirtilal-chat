@@ -4,7 +4,7 @@ import cors from "cors";
 const PORT = process.env.PORT || 5678;
 
 // Your n8n production webhook URL
-const N8N_WEBHOOK_URL = "https://irena-whiniest-choicely.ngrok-free.dev/webhook/kirtilal-chat";
+const N8N_WEBHOOK_URL = "https://n8n-server-ui6o.onrender.com";
 
 // ✅ Allowed WordPress origins (staging + optional future production)
 const ALLOWED_ORIGINS = process.env.ALLOWED_ORIGINS ||
